@@ -236,17 +236,17 @@ h1, h2, h3, h4, h5, h6 {
     top: auto;
     bottom: 0px;
   }
-  .icon-menu.active span {
+  .icon-menu._active span {
     -webkit-transform: scale(0);
     transform: scale(0);
     background-color: #fff;
   }
-  .icon-menu.active span:first-child {
+  .icon-menu._active span:first-child {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     top: 8px;
   }
-  .icon-menu.active span:last-child {
+  .icon-menu._active span:last-child {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     bottom: 8px;

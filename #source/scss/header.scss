@@ -138,7 +138,7 @@
                 bottom: 0px;
             }
         }
-        &.active {
+        &._active {
             span {
                 @include scale(0);
                 background-color: #fff;
