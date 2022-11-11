@@ -172,6 +172,20 @@ h1, h2, h3, h4, h5, h6 {
     overflow: auto;
     background-color: #4d4959;
     padding: 150px 0px 20px 0px;
+    transform: translate3d(0px, -100%, 0px);
+    -webkit-transform: translate3d(0px, -100%, 0px);
+    -ms-transform: translate3d(0px, -100%, 0px);
+    -o-transform: translate3d(0px, -100%, 0px);
+    -moz-transform: translate3d(0px, -100%, 0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .menu__body._active {
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
   }
   .menu__list {
     -webkit-box-orient: vertical;
@@ -213,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     position: absolute;
     top: 33px;
-    right: 24px;
+    right: 15px;
     width: 30px;
     height: 18px;
     cursor: pointer;
@@ -227,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #494959;
   }
   .icon-menu span:first-child {
     top: 0px;
