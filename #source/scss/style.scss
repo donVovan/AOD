@@ -39,6 +39,7 @@ $minwidth:320px;
 .container {
     max-width: 1130px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 // ОСНОВНОЙ БЛОК ===================================================================================================
@@ -62,8 +63,46 @@ $minwidth:320px;
             left: 0;
         }
 }
+// ===========================================================================================
 .content {
 
+}
+// ===========================================================================================
+
+.generation {
+    padding: 120px 0;
+    background-color: #f7f7f7;
+
+    &__block {}
+    @media (max-width: 900px){
+          padding: 80px 0;
+    }
+    @media (max-width: 600px){
+        padding: 30px 0;
+  }
+}
+.block {
+    text-align: center;
+
+    &__icon {
+        margin: 0px 0px 33px 0px;
+    }
+
+    &__title {
+        margin: 0px 0px 18px 0px;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #353738;
+        line-height: 24px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 34px;
+        color: #848789;
+    }
 }
 
 

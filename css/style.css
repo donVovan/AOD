@@ -295,6 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1130px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .page {
@@ -326,4 +327,45 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   top: 0;
   left: 0;
+}
+
+.generation {
+  padding: 120px 0;
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 900px) {
+  .generation {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .generation {
+    padding: 30px 0;
+  }
+}
+
+.block {
+  text-align: center;
+}
+
+.block__icon {
+  margin: 0px 0px 33px 0px;
+}
+
+.block__title {
+  margin: 0px 0px 18px 0px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #353738;
+  line-height: 24px;
+}
+
+.block__text {
+  font-size: 18px;
+  line-height: 34px;
+  color: #848789;
 }
